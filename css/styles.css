@@ -334,7 +334,7 @@ body {
 
 /*Navigation stuff goes here*/
 #navWrapper {
-  background-color: #1abafa;
+  background-color: #00b4fc;
   position: sticky;
   top: 0;
   z-index: 99;
@@ -372,11 +372,11 @@ nav ul li a span {
   display: none;
 }
 nav ul li a:hover {
-  background-color: #2ec0fa;
+  background-color: #11bbff;
   color: orange;
 }
 nav ul li.active a {
-  background-color: #05a6e6;
+  background-color: #0097d3;
 }
 nav ul.open {
   display: block;
@@ -519,7 +519,7 @@ select {
 
 input[type=submit] {
   border: none;
-  background-color: #1abafa;
+  background-color: #00b4fc;
   color: white;
   border-radius: 1rem;
   padding: 0.75rem 1.5rem;
@@ -585,6 +585,11 @@ footer p {
   #navWrapper {
     grid-row: 1/span 3;
     position: relative;
+  }
+  nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
   }
   nav ul {
     flex-direction: column;
