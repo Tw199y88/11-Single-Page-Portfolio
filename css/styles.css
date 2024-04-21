@@ -334,7 +334,7 @@ body {
 
 /*Navigation stuff goes here*/
 #navWrapper {
-  background-color: #9ee4ff;
+  background-color: #1abafa;
   position: sticky;
   top: 0;
   z-index: 99;
@@ -372,11 +372,11 @@ nav ul li a span {
   display: none;
 }
 nav ul li a:hover {
-  background-color: #b2eaff;
+  background-color: #2ec0fa;
   color: orange;
 }
 nav ul li.active a {
-  background-color: #75d9ff;
+  background-color: #05a6e6;
 }
 nav ul.open {
   display: block;
@@ -519,7 +519,7 @@ select {
 
 input[type=submit] {
   border: none;
-  background-color: #9ee4ff;
+  background-color: #1abafa;
   color: white;
   border-radius: 1rem;
   padding: 0.75rem 1.5rem;
